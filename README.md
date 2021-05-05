@@ -15,5 +15,4 @@ FPGA-based module provides both security and speed for securing the
 digital communications systems.
 
 ## Introduction
-This project aims at performing data encryption & decryption in VHDL using XOR Stream Cipher Algorithm. VHDL code and Test Bench for verification is given below.
-In this project, a plain text message is read from “message.txt” file, a random key is generated per character and bitwise XOR operation is performed and the cipher text & Cipher key is stored in "CipherText.txt" and “RandomKey.txt” file. Similarly, decryption operation is performed using the same key, and the decrypted text is stored in "DecryptedText.txt".
+This project aims at performing data encryption & decryption in VHDL using XOR Stream Cipher Algorithm. In this project, a plain text message is read from “message.txt” file, a random key is generated per character and bitwise XOR operation is performed and the cipher text & Cipher key is stored in "CipherText.txt" and “RandomKey.txt” file. Similarly, decryption operation is performed using the same key, and the decrypted text is stored in "DecryptedText.txt".
